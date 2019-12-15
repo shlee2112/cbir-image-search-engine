@@ -1,5 +1,5 @@
 # Content-Based Image Retrieval (CBIR) Search Engine
-## Sanghyun Lee (shleec)
+## Sanghyun Lee
 
 
 ## Project Description
