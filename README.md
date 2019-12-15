@@ -5,6 +5,9 @@
 ## Project Description
 I developed an image search engine that returns the most relevant image based on the query image by utilizing Content-Based Image Retrieval (CBIR) system. It uses Python and OpenCV, which is an open-source BSD-licensed computer vision library and includes several hundreds of computer vision algorithms. This system quantifies the dataset by utilizing an image descriptor to extract HSV color histogram features from each image. Then, when a query image is submitted, it finds similar images by comparing the chi^2 distance similarity.
 
+![Image of CBIR Process](https://github.com/shlee2112/cbir-image-search-engine/blob/master/img/cbir_process.png)
+
+
 
 ## Dataset
 I used [Stanford Dog Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) to extract HSV color features and compare similarities with a query image. To get a faster result, I reduced the number of images from 20K to 1.5K. ALso, the dataset includes images of African Hunting Dogs, Toy Poodles, Pembroke Welsh Corgis, Eskimo Dogs, German Shepherds, Border Collies, Golden Retrievers, Beagles and Boston Bulls.
