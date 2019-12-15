@@ -9,6 +9,8 @@ I developed an image search engine that returns the most relevant image based on
 ## Dataset
 I used [Stanford Dog Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) to extract HSV color features and compare similarities with a query image. To get a faster result, I reduced the number of images from 20K to 1.5K. ALso, the dataset includes images of African Hunting Dogs, Toy Poodles, Pembroke Welsh Corgis, Eskimo Dogs, German Shepherds, Border Collies, Golden Retrievers, Beagles and Boston Bulls.
 
+![Image of Stanford Dog Dataset](https://github.com/shlee2112/cbir-image-search-engine/blob/master/img/stanford_dogs.png)
+
 
 ## Script Description
 ### colordescriptor.py
